@@ -5,6 +5,6 @@ cognomi.push(cognomeup);
 var lista = cognomi.sort();
 
 
-for (var i = 0; i < lista.length; ++i) {
+for (var i = 0; i < cognomi.length; ++i) {
   document.getElementById("lista").innerHTML += "<li>" + lista[i] + "</li>" ;
 }
